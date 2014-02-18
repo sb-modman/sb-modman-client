@@ -18,6 +18,7 @@ public class GUIFrame extends JFrame implements ListSelectionListener {
 	private DefaultListModel listModel = new DefaultListModel();
 	
 	public GUIFrame(String[] modnames) {
+		super("Sphereconstrained Package Manager");
 		for (String s : modnames)
 			listModel.addElement(s);
 		
